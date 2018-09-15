@@ -1,0 +1,8 @@
+tinydb
+cement==3.0.0
+jinja2
+pyyaml
+colorlog
+python-dateutil
+requests
+bs4

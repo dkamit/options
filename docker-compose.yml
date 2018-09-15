@@ -1,0 +1,13 @@
+version: "3"
+services:
+    options:
+        image: "options:dev"
+        build:
+            context: .
+            dockerfile: Dockerfile
+        hostname: options
+        stdin_open: true
+        tty: true
+        working_dir: '/options-dev'
+        volumes:
+            - ".:/options-dev"
